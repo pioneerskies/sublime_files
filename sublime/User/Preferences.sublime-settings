@@ -75,6 +75,6 @@
 	"theme": "Material Spacegray.sublime-theme",
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean (SL).tmTheme",
 	"font_options": [ "gray_antialias" ], // On retina Mac
-	"material_spacegray_small_tab": true
+	"material_theme_small_tab": true
 
 }
