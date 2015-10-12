@@ -18,6 +18,9 @@
 		"*.scssc",
 		"*.sassc"
 	],
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean (SL).tmTheme",
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -50,6 +53,13 @@
 		"public",
 		"tmp"
 	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 15,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -58,23 +68,11 @@
 	[
 		"draw_active"
 	],
+	"material_theme_small_tab": true,
 	"show_encoding": true,
 	"tab_size": 2,
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
+	"theme": "Material Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	//////////////////////////////////////////////////////
-	// UI configurations
-	// N.B.: Used with this iTerm2 colorscheme
-	// https://raw.githubusercontent.com/chriskempson/base16-iterm2/master/base16-ocean.dark.256.itermcolors
-	"font_face": "Ubuntu Mono",
-	"font_size": 15,
-	"highlight_line": true,
-	"theme": "Material Spacegray.sublime-theme",
-	"color_scheme": "Packages/User/SublimeLinter/base16-ocean (SL).tmTheme",
-	"font_options": [ "gray_antialias" ], // On retina Mac
-	"material_theme_small_tab": true
-
+	"word_wrap": true
 }
