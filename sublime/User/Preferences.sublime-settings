@@ -42,7 +42,12 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		".DS_store",
+		".SublimeREPLHistory",
+		"*.last-run",
+		"Package Control.ca-list",
+		"*ca-bundle"
 	],
 	"folder_exclude_patterns":
 	[
