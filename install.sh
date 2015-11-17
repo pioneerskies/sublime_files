@@ -4,7 +4,7 @@ OS=$(uname)
 BACKUP_DIR="$(pwd)/backup"
 SUBLIME_FILES="$(pwd)/sublime/User"
 
-if [[ $OS == 'Darwin']]; then
+if [[ $OS == 'Darwin' ]]; then
 	SUBLIME_DEST_DIR="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
 elif [[ $OS == "Linux" ]]; then
 	SUBLIME_DEST_DIR="${HOME}/.config/sublime-text-3/Packages/User/"
@@ -24,6 +24,7 @@ function backup_sublime() {
 	if [[ -d "$backup" ]]; then
 		warn "$backup already exists"
 	else
+		mkdir -p "$backup"
 		cp -r "$SUBLIME_DEST_DIR" ${backup} && rm -rf "$SUBLIME_DEST_DIR"
 	fi
 }
@@ -31,7 +32,7 @@ function backup_sublime() {
 function link_sublime() {
 	if [[ -d "$SUBLIME_DEST_DIR" ]]; then
 		warn "${SUBLIME_DEST_DIR} already exists"
-	elif [[ -L "$SUBLIME_DEST_DIR"]]; then
+	elif [[ -L "$SUBLIME_DEST_DIR" ]]; then
 		warn "${SUBLIME_DEST_DIR} is already already a symlink"
 	else
 		ln -s $SUBLIME_FILES "${SUBLIME_DEST_DIR}"
