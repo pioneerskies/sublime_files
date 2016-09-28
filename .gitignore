@@ -6,3 +6,4 @@ sublime/User/*/
 Package Control.ca-list
 *ca-bundle
 backup*
+oscrypto-ca-bundle.crt
