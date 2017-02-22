@@ -37,6 +37,7 @@
 		"SublimeLinter-haml",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
+		"SublimeLinter-pyyaml",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-xmllint",
 		"Terminal",
