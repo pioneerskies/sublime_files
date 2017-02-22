@@ -57,7 +57,8 @@
 		".hg",
 		"coverage",
 		"public",
-		"tmp"
+		"tmp",
+		"node_modules"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_options":
