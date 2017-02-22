@@ -31,6 +31,16 @@
 				[
 				]
 			},
+			"jslint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
 			"json":
 			{
 				"@disable": false,
@@ -43,6 +53,27 @@
 				"strict": true
 			},
 			"php":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"puglint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"reporter": "inline"
+			},
+			"pyyaml":
 			{
 				"@disable": false,
 				"args":
